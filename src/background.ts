@@ -9,6 +9,7 @@ export class Background extends Actor {
       y: (ROWS * BLOCK_SIZE) / 2,
       width: COLS * BLOCK_SIZE,
       height: ROWS * BLOCK_SIZE,
+      name: 'Background',
       z: -100,
     });
   }

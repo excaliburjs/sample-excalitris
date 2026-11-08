@@ -82,6 +82,7 @@ export class GameScene extends Scene {
     const startX = Math.floor((COLS - shape.blocks[0].length) / 2);
     const startY = 0;
 
+    // ex-doctor-ignore-next-line actor-not-added
     this.currentPiece = new Tetromino(shape, startX, startY);
     this.currentPiece.addToScene(this);
 

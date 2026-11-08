@@ -6,6 +6,7 @@ import { BLOCK_SIZE } from './config';
 export class SettledBlock extends Actor {
   constructor(gridX: number, gridY: number, sprite: Sprite) {
     super({
+      name: 'SettledBlock',
       x: gridX * BLOCK_SIZE + BLOCK_SIZE / 2,
       y: gridY * BLOCK_SIZE + BLOCK_SIZE / 2,
       width: BLOCK_SIZE,

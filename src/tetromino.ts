@@ -18,6 +18,7 @@ export class Tetromino extends Actor {
 
   constructor(shape: Shape, startX: number, startY: number) {
     super({
+      name: 'Tetromino',
       x: startX * BLOCK_SIZE,
       y: startY * BLOCK_SIZE,
     });
